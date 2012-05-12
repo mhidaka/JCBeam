@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="enable_p2p_button">P2P On/Off</string>
+    <string name="discover_peers_button">Discover</string>
+    <string name="connect_peer_button">Connect</string>
+    <string name="disconnect_peer_button">Disconnect</string>
+    <string name="get_file_button">Launch Gallery</string>
+    <string name="empty"></string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="client_text">This device will act as a client. Click on Gallery button to pick a local(stored) file</string>
+    <string name="empty_message">No devices found. Turn on P2P and perform discovery from the Action Bar</string>
+    <string name="p2p_off_warning">Enable P2P from action bar button above or system settings</string>
+    <string name="group_owner_text">"Am I the Group Owner? "</string>
+    <string name="label_me">ME</string>
+    <string name="label_peers">PEERS</string>
+    <string name="nfc_receive">JC Beam開始要求</string>
+
+    <!-- JCBeamアプリ情報 -->
+    <string name="app_name">JCBeam</string>
+    <string name="info">システムテーマを送信するためには、テーマを選んでJCROM同士を背中合わせに近づけてタップします</string>
+    <string name="wifidirect">通信を開始しています...</string>
+    <string name="no_theme">テーマがありません</string>
+
+    <!-- JC Beam送信データ作成 -->
+    <string name="title_zip">交換するよ！</string>
+    <string name="create_zip">JC Beam送信用の圧縮ファイルを作成します。この作業には時間がかかりますが、実行しますか？</string>
+    <string name="overwrite_zip">JC Beam送信用の圧縮ファイルがすでに存在しています。上書きしていい？</string>
+    <string name="exec_zip">処理中です...</string>
+    <string name="complate_zip">圧縮処理が完了しました</string>
+    <string name="dialog_zip">圧縮ファイル作成</string>
+
+
+    <!-- JC Beam受信データ展開 -->
+    <string name="title_unzip">展開するよ！</string>
+    <string name="create_unzip">圧縮されたテーマファイルがあります。この作業には時間がかかりますが、展開して利用可能な状態にしますか？</string>
+    <string name="overwrite_unzip">圧縮ファイルからテーマを展開します。同名のテーマがすでに存在しています。上書きしていい？</string>
+    <string name="exec_unzip">処理中です...</string>
+    <string name="complate_unzip">展開処理が完了しました</string>
+        <string name="dialog_unzip">テーマの展開</string>
+
+
+    <!-- 未準備のファイルを受信 -->
+    <string name="need_prepare">送信元データが作成されていません。テーマは送信側で圧縮する必要があります。</string>
+
+
+    <!-- NFC送受信TOAST -->
+    <string name="toast_nfc_send">テーマ送信を開始します。</string>
+    <string name="toast_nfc_cancel">テーマ送信に必要な圧縮ファイルがありません。</string>
+</resources>
