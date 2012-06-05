@@ -30,6 +30,7 @@ public class Theme {
 
         //ディレクトリを探す
         File d = new File(THEMES_DIRECTORY);
+        if( !d.exists() ) return;
         List<File>f = Arrays.asList(d.listFiles());
 
         for(int i=0;i< f.size(); i++){
