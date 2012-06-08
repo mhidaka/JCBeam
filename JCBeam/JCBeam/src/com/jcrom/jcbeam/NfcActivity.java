@@ -40,8 +40,6 @@ public class NfcActivity extends Activity{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        initTheme();
-
         //NFCのPush設定を行う
         mNfcManager = new NfcManager(this);
 
