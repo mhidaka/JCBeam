@@ -6,6 +6,8 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import android.os.Environment;
+
 import com.jcrom.jcbeam.zip.PayloadFactory;
 
 public class Theme {
@@ -86,11 +88,11 @@ public class Theme {
     }
 
     public String getThemePath(int pos) {
-        
+
         if(themes.size() == 0){
             return null;
         }
-        
+
         return THEMES_DIRECTORY + "/" + themes.get(pos);
     }
 
@@ -116,5 +118,18 @@ public class Theme {
             return true;
         }
         return false;
+    }
+
+    public static void moveThemeZip(String zipPath) {
+
+        File zip = new File(zipPath);
+        File dir = new File(Environment.getExternalStorageDirectory() + "/mytheme");
+
+        if (!dir.exists())
+            dir.mkdir();
+
+        zip.renameTo(new File(dir, zip.getName()));
+
+        return;
     }
 }
