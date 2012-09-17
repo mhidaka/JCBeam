@@ -49,47 +49,33 @@ public final class R {
     public static final class string {
         /**  JCBeamアプリ情報 
          */
-        public static final int app_name=0x7f05000f;
-        public static final int client_text=0x7f050008;
-        public static final int complate_unzip=0x7f05001d;
-        public static final int complate_zip=0x7f050017;
-        public static final int connect_peer_button=0x7f050002;
-        public static final int create_unzip=0x7f05001a;
-        public static final int create_zip=0x7f050014;
-        public static final int dialog_unzip=0x7f05001e;
-        public static final int dialog_zip=0x7f050018;
-        public static final int disconnect_peer_button=0x7f050003;
-        public static final int discover_peers_button=0x7f050001;
-        public static final int empty=0x7f050005;
-        public static final int empty_message=0x7f050009;
-        public static final int enable_p2p_button=0x7f050000;
-        public static final int exec_unzip=0x7f05001c;
-        public static final int exec_zip=0x7f050016;
-        public static final int get_file_button=0x7f050004;
-        public static final int group_owner_text=0x7f05000b;
-        public static final int info=0x7f050010;
-        public static final int label_me=0x7f05000c;
-        public static final int label_peers=0x7f05000d;
+        public static final int app_name=0x7f050000;
+        public static final int complate_unzip=0x7f05000f;
+        public static final int complate_zip=0x7f050009;
+        public static final int create_unzip=0x7f05000c;
+        public static final int create_zip=0x7f050006;
+        public static final int dialog_unzip=0x7f050010;
+        public static final int dialog_zip=0x7f05000a;
+        public static final int exec_unzip=0x7f05000e;
+        public static final int exec_zip=0x7f050008;
+        public static final int info=0x7f050002;
         /**  未準備のファイルを受信 
          */
-        public static final int need_prepare=0x7f05001f;
-        public static final int nfc_receive=0x7f05000e;
-        public static final int no=0x7f050007;
-        public static final int no_theme=0x7f050012;
-        public static final int overwrite_unzip=0x7f05001b;
-        public static final int overwrite_zip=0x7f050015;
-        public static final int p2p_off_warning=0x7f05000a;
+        public static final int need_prepare=0x7f050011;
+        public static final int nfc_receive=0x7f050001;
+        public static final int no_theme=0x7f050004;
+        public static final int overwrite_unzip=0x7f05000d;
+        public static final int overwrite_zip=0x7f050007;
         /**  JC Beam受信データ展開 
          */
-        public static final int title_unzip=0x7f050019;
+        public static final int title_unzip=0x7f05000b;
         /**  JC Beam送信データ作成 
          */
-        public static final int title_zip=0x7f050013;
-        public static final int toast_nfc_cancel=0x7f050021;
+        public static final int title_zip=0x7f050005;
+        public static final int toast_nfc_cancel=0x7f050013;
         /**  NFC送受信TOAST 
          */
-        public static final int toast_nfc_send=0x7f050020;
-        public static final int wifidirect=0x7f050011;
-        public static final int yes=0x7f050006;
+        public static final int toast_nfc_send=0x7f050012;
+        public static final int wifidirect=0x7f050003;
     }
 }

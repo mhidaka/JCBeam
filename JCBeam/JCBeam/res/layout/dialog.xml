@@ -39,7 +39,7 @@
             android:layout_above="@+id/linearLayout1"
             android:layout_alignParentLeft="true"
             android:layout_marginBottom="14dp"
-            android:text="JCBeamのテーマ交換リクエストを受信しました。テーマを受け取りますか？"
+            android:text="Zipファイルを受信しました。JCROMのテーマとして保存しますか？"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
     </RelativeLayout>
